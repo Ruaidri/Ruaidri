@@ -119,7 +119,7 @@ function fullPage() {
           translateX: ["-105%", 0],
           translateZ: 0,
           easing: "easeInOutCubic",
-          duration: 2200,
+          duration: 500,
           delay: function(el, i) {
             return 50 * i
           },
