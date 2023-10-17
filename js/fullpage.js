@@ -32,7 +32,7 @@ function fullPage() {
         anime.timeline().add({
           targets: ".js-letter3",
           translateX: "-105%",
-          duration: 500,
+          duration: 200,
           easing: "easeInOutCubic",
           delay: function(el, i) {
             return 60 * i
