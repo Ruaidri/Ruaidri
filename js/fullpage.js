@@ -550,7 +550,7 @@ var PageTransitionTop = Barba.BaseTransition.extend({
         left: [image.left, imageBig.left]
       }).add({
         targets: ".fullpage__slide",
-        background: ["rgba(0,0,0,0)", "#919191"],
+        background: ["rgba(0,0,0,0)", "rgba(0,0,0,0)"],
         offset: "-=500"
       }).add({
         targets: ".page-num p",
