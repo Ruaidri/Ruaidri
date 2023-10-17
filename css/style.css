@@ -569,6 +569,9 @@ p {
 .face-img {
     margin-top: -50px;
 }
+.about-content{
+  justify-content: space-between;
+}
 
 /* MOBILE CSS */
 @media (max-width: 768px){
