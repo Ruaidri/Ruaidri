@@ -760,9 +760,6 @@ p {
   .about .meta__text {
     display: flex;
   }
-  #way1{
-    padding-left: 0;
-  }
   .desktop{
     display: none;
   }
