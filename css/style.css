@@ -145,7 +145,7 @@ section{
   line-height: 1;
   letter-spacing: 0.1em;
   margin-bottom: 1.6rem;
-  font-family: "PopBold";
+  font-family: "PopRegular";
   font-weight: normal;
   text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
 }
@@ -153,7 +153,7 @@ section{
   font-size: 7rem;
   line-height: 1;
   letter-spacing: 0.1em;
-  font-family: initial;
+  font-family: "PopBold";
   font-weight: normal;
   text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
   position: absolute;
@@ -452,13 +452,10 @@ border-radius: 8%;
   background: #1b1d1f;
 }
 .text-content{
-  width: 50%;
-}
-.img-content{
-  width: 75%;
+  width: 45%;
 }
 .meta__text-wrap{
-  width: 150%;
+  width: 100%;
 }
 .meta__text {
   display: -webkit-box;
@@ -470,7 +467,7 @@ border-radius: 8%;
   margin-right: 6.4rem;
 }
 .small-title {
-  font-size: 2.4rem;
+  font-size: 1em;
   color: #ff3333;
   letter-spacing: 0.2em;
   line-height: 1.2;
@@ -533,8 +530,7 @@ p {
   color: #ff3333;
   letter-spacing: 0.2em;
   font-family: "PopLight";
-  margin-right: 3.2rem;
-  margin-top: 0;
+  margin: 0 3.2rem 0 0;
   padding-top: 1.2rem;
 }
 .heading-num {
