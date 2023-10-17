@@ -7,6 +7,10 @@
   src:url("../fonts/Poppins-Regular.ttf");
 }
 @font-face {
+  font-family: PopBold;
+  src:url("../fonts/Poppins-Bold.ttf");
+}
+@font-face {
   font-family: "futura_med";
   src: url(../fonts/Futura-Med.eot) format("eot"), url(../fonts/Futura-Med.woff) format("woff")
 }
@@ -32,7 +36,7 @@ body{
   padding: 0;
   box-sizing: border-box;
   min-height: 100vh;
-  background: rgba(145,145, 145, 0.8);
+  background: rgba(0,0, 0, 0.8);
   /* background: radial-gradient(rgba(43, 55, 96, 1), rgba(11, 16, 35, 1)); */
   color: white;
 }
@@ -141,7 +145,7 @@ section{
   line-height: 1;
   letter-spacing: 0.1em;
   margin-bottom: 1.6rem;
-  font-family: "futura_m";
+  font-family: "PopBold";
   font-weight: normal;
   text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
 }
@@ -441,7 +445,7 @@ border-radius: 8%;
 
 .wrapOdd{
   display: flex;
-  background: #ffffff;
+  margin: -7em 2em 0;
 }
 .wrapEven{
   display: flex;
@@ -470,7 +474,7 @@ border-radius: 8%;
   color: #ff3333;
   letter-spacing: 0.2em;
   line-height: 1.2;
-  font-family: "futura_de";
+  font-family: "PopBold";
 }
 p {
   color: #b4b4b4;
