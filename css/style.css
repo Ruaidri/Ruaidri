@@ -564,6 +564,7 @@ p {
 }
 .mobile_about{
     display: none;
+    margin: 0;
 }
 .face-img {
     margin-top: -50px;
@@ -724,8 +725,9 @@ p {
   }
   .text__wrap {
       display: block;
-      padding:0 10px 0 10px;
       width: 100%;
+      margin: 0 -.4em;
+      padding: 0;
   }
   .date{
     display: none;
@@ -757,7 +759,10 @@ p {
   }
   .about .meta__text {
     display: flex;
-}
+  }
+  #way1{
+    padding-left: 0;
+  }
   .desktop{
     display: none;
   }
