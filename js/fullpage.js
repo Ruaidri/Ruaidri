@@ -97,12 +97,12 @@ function fullPage() {
           easing: "easeInOutCubic"
         }).add({
           targets: ".scroll2",
-          translateY: "180%",
+          translateY: "0%",
           duration: 500,
           easing: "easeInOutCubic"
         }).add({
           targets: ".scroll3",
-          translateY: "00%",
+          translateY: "180%",
           duration: 500,
           easing: "easeInOutCubic"
         });
@@ -126,12 +126,12 @@ function fullPage() {
           easing: "easeInOutCubic"
         }).add({
           targets: ".scroll2",
-          translateY: "0%",
+          translateY: "180%",
           duration: 500,
           easing: "easeInOutCubic"
         }).add({
           targets: ".scroll3",
-          translateY: "180%",
+          translateY: "0%",
           duration: 500,
           easing: "easeInOutCubic"
         });
