@@ -461,7 +461,7 @@ border-radius: 8%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 13rem;
+  margin-left: -15px;
 }
 .meta__text li {
   margin-right: 6.4rem;
@@ -508,10 +508,14 @@ p {
   max-width: 1200px;
 }
 .wellred-img {
-  width: 100%;
+  width: 50%;
   margin-top: 125px;
+  opacity: .7;
 }
-
+.heading .wr-cont{
+  font-size: 1em;
+  font-family: "PopBold";
+}
 .jw-img {
   position: absolute;
   width: 35%;
