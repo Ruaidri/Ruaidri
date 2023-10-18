@@ -66,16 +66,21 @@ function fullPage() {
           translateY: "0%",
           duration: 500,
           easing: "easeInOutCubic"
+        }).add({
+          targets: ".scroll2",
+          translateY: "0%",
+          duration: 500,
+          easing: "easeInOutCubic"
+        }).add({
+          targets: ".scroll3",
+          translateY: "0%",
+          duration: 500,
+          easing: "easeInOutCubic"
         });
         break;
 
         case 2:
         anime.timeline().add({
-          targets: ".scroll1",
-          translateY: "180%",
-          duration: 500,
-          easing: "easeInOutCubic"
-        }).add({
           targets: ".js-letter2",
           translateX: ["-105%", 0],
           translateZ: 0,
@@ -86,13 +91,18 @@ function fullPage() {
           },
           offset: "-=1500"
         }).add({
-          targets: ".scroll2",
+          targets: ".scroll1",
           translateY: "0%",
           duration: 500,
           easing: "easeInOutCubic"
         }).add({
+          targets: ".scroll2",
+          translateY: "180%",
+          duration: 500,
+          easing: "easeInOutCubic"
+        }).add({
           targets: ".scroll3",
-          translateY: "0%",
+          translateY: "00%",
           duration: 500,
           easing: "easeInOutCubic"
         });
@@ -100,21 +110,6 @@ function fullPage() {
 
         case 3:
         anime.timeline().add({
-          targets: ".scroll2",
-          translateY: "0%",
-          duration: 500,
-          easing: "easeInOutCubic"
-        }).add({
-          targets: ".scroll3",
-          translateY: "180%",
-          duration: 500,
-          easing: "easeInOutCubic"
-        }).add({
-          targets: ".scroll1",
-          translateY: "0%",
-          duration: 500,
-          easing: "easeInOutCubic"
-        }).add({
           targets: ".js-letter3",
           translateX: ["-105%", 0],
           translateZ: 0,
@@ -124,15 +119,25 @@ function fullPage() {
             return 50 * i
           },
           offset: "-=1200"
-        });
-        break;
-        case 4:
-        anime.timeline().add({
-          targets: ".scroll3",
+        }).add({
+          targets: ".scroll1",
           translateY: "0%",
           duration: 500,
           easing: "easeInOutCubic"
         }).add({
+          targets: ".scroll2",
+          translateY: "0%",
+          duration: 500,
+          easing: "easeInOutCubic"
+        }).add({
+          targets: ".scroll3",
+          translateY: "180%",
+          duration: 500,
+          easing: "easeInOutCubic"
+        });
+        break;
+        case 4:
+        anime.timeline().add({
           targets: ".js-letter4",
           translateX: ["-105%", 0],
           translateZ: 0,
@@ -143,8 +148,18 @@ function fullPage() {
           },
           offset: "-=1200"
         }).add({
-          targets: ".scroll2",
+          targets: ".scroll1",
           translateY: "180%",
+          duration: 500,
+          easing: "easeInOutCubic"
+        }).add({
+          targets: ".scroll2",
+          translateY: "0%",
+          duration: 500,
+          easing: "easeInOutCubic"
+        }).add({
+          targets: ".scroll3",
+          translateY: "0%",
           duration: 500,
           easing: "easeInOutCubic"
         });
