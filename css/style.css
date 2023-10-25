@@ -450,10 +450,13 @@ border-radius: 8%;
   display: flex;
   background: #1b1d1f;
 }
-.portfolio-page .wrapOdd{
+.portfolio-page .top-text-content{
+  margin-top: -7em;
+}
+.portfolio-page .wrapOdd .text-content{
   margin: 0 2em;
 }
-.portfolio-page .wrapEven{
+.portfolio-page .wrapEven .text-content{
   margin: 0 2em;
 }
 .portfolio-bottom-c{
