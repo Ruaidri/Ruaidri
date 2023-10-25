@@ -709,6 +709,7 @@ p {
   }
   .text-content{
     width: 100%;
+    max-width: 90vw;
   }
   .img-content{
     width: 100%;
@@ -740,6 +741,9 @@ p {
   .meta__text {
       margin: 0;
   }
+  .portfolio-page .meta__text{
+    padding-left: 0;
+  }
   .meta__text-wrap {
     width: 100%;
   }
@@ -755,9 +759,12 @@ p {
   .date{
     display: none;
   }
-  .wellred-img {
+  .pm-images {
     position: absolute;
     top: 70%;
+  }
+  .wellred-img{
+    width: 100%;
   }
   .jw-img {
       position: relative;
