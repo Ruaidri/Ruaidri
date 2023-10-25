@@ -576,7 +576,11 @@ p {
 .about-content{
   justify-content: space-between;
 }
-
+@media (min-width: 1024px){
+  .key-skills{
+    padding-left: 4em;
+  }
+}
 /* MOBILE CSS */
 @media (max-width: 768px){
   .title .border span {
@@ -673,6 +677,7 @@ p {
     font-size: 0.9rem;
     padding-left: 10px;
   }
+
 
 
 
