@@ -451,6 +451,9 @@ border-radius: 8%;
   display: flex;
   background: #1b1d1f;
 }
+.portfolio-bottom-c{
+  margin-top: 0;
+}
 .text-content{
   width: 45%;
 }
