@@ -523,14 +523,14 @@ p {
   position: absolute;
   width: 35%;
   left: 45%;
-  margin-top: 230px;
+  margin-top: 3em;
 }
 
 .git-img {
   position: absolute;
   width: 15%;
   left: 80%;
-  margin-top: 280px;
+  margin-top: 5em;
 }
 .heading {
   font-size: 4rem;
