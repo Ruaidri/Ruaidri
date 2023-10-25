@@ -445,11 +445,16 @@ border-radius: 8%;
 
 .wrapOdd{
   display: flex;
-  margin: -7em 2em 0;
 }
 .wrapEven{
   display: flex;
   background: #1b1d1f;
+}
+.portfolio-page .wrapOdd{
+  margin: 0 2em;
+}
+.portfolio-page .wrapEven{
+  margin: 0 2em;
 }
 .portfolio-bottom-c{
   margin-top: 0;
