@@ -661,7 +661,7 @@ p {
     margin-left: 28px;
   }
   .title2{
-    top: 73%;
+    top: 50%;
     margin-left: 28px;
   }
   .title3{
@@ -743,6 +743,9 @@ p {
   }
   .portfolio-page .meta__text{
     padding-left: 0;
+  }
+  .pm-images .git-class{
+    display: none;
   }
   .meta__text-wrap {
     width: 100%;
