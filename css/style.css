@@ -634,7 +634,7 @@ p {
   .about .key-skills{
     margin: 0 2em;
   }
-  .key-skill-list{
+  #way1 .key-skill-list{
     display: block;
   }
   .scrollDown a{
